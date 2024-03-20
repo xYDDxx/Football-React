@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function HeaderButton (name) {
+export default function HeaderButton ({ name }) {
   return (
     <div className=''>
-      <p className='text-white'></p>
+      <p className='text-white'>{name}</p>
     </div>
   )
 }
